@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	
+	<head>
+		
+		<title>Slimbox 2 example page</title>
+		
+		<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+		<!--
+			using direct include for beta 2.2 including callback in registerObject
+			google code URL of 2.1: http://ajax.googleapis.com/ajax/libs/swfobject/2.1/swfobject.js
+		-->
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript" src="js/slimboxSE.js"></script>
+		<script type="text/javascript" src="js/autoload.js"></script>
+		
+	</head>
+	
+	<body style="margin: 42px; font-family: helvetica, arial, sans-serif; font-size: smaller;">
+		
+		<h3>JPEG example</h3>
+		<p>
+			<a href="img/example.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a> to view a picture inside Slimbox.
+		</p>
+		
+		<h3>SWF example, parameters provided via title attribute</h3>
+		<p>
+			<a id="previewSwf" href="swf/example.swf" rel="lightbox" title="width:400;height:200;caption:A SWF example.">Click here</a> to view a SWF inside Slimbox.
+		</p>
+		
+		<h3>n.a. example</h3>
+		<p>
+			<a href="img/n.a.jpg" rel="lightbox" title="n.a. example">Click here</a> to see broken link handling.
+		</p>
+	
+	</body>
+
+</html>
