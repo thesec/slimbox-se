@@ -32,3 +32,9 @@ If you are a developer and want to edit the provided source code, it is strongly
 by Julien Lecomte before distribution. It will strip spaces and comments and shrink the variable names in order to obtain the smallest file size.
 
 Have fun!
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
