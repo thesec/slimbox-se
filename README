@@ -1,5 +1,5 @@
-SLIMBOX SE README
-====================
+# SLIMBOX SE README
+
 The ultimate lightweight Lightbox clone
 ... now using the jQuery javascript library
 + ... now providing SWF preview
@@ -12,14 +12,14 @@ MIT-style license
 
 Included files:
 
-example.html		A simple example page demonstrating how to use Slimbox SE.
-img/example.jpg		An example image used on the example page.
-img/*.gif			Slimbox images you can edit to customize Slimbox' appearance
-swf/example.swf		An example SWF used on the example page.
-css/*				The Slimbox stylesheets. You can edit to customize Slimbox appearance.
-jsSrc/*.js			The Slimbox SE sources. Contains many comments and is not suitable for production use (needs to be minified first).
-js/*.js				The minified versions of above JS'.
-README				The file you are reading.
++ example.html		A simple example page demonstrating how to use Slimbox SE.
++ img/example.jpg		An example image used on the example page.
++ img/*.gif			Slimbox images you can edit to customize Slimbox' appearance
++ swf/example.swf		An example SWF used on the example page.
++ css/*				The Slimbox stylesheets. You can edit to customize Slimbox appearance.
++ jsSrc/*.js			The Slimbox SE sources. Contains many comments and is not suitable for production use (needs to be minified first).
++ js/*.js				The minified versions of above JS'.
++ README				The file you are reading.
 
 Slimbox 2 requires the jQuery library (version 1.2.6 or more recent) to be installed on your website in order to work properly.
 Slimbox SE requires the swfobject library (version 2.2 or more recent) to be installed on your website in order to work properly.
